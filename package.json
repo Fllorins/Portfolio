@@ -5,10 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "npm run build && vite preview"
   },
   "devDependencies": {
     "sass": "^1.80.5",
