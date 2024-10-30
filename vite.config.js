@@ -1,6 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 export default defineConfig({
-  
-  base: "/Portfolio_Fllorins/",
-
-})
+  base: 'https://github.com/Fllorins/portfolio/',
+});
